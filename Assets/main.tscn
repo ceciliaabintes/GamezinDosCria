@@ -1,13 +1,5 @@
-[gd_scene load_steps=3 format=3 uid="uid://dis4wbe2upuir"]
-
-[ext_resource type="Script" uid="uid://djupbqg0rsjdo" path="res://Assets/mesh_instance_3d.gd" id="1_fhhcb"]
-
-[sub_resource type="BoxMesh" id="BoxMesh_yjg56"]
+[gd_scene format=3 uid="uid://dis4wbe2upuir"]
 
 [node name="Node3D" type="Node3D"]
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-mesh = SubResource("BoxMesh_yjg56")
-script = ExtResource("1_fhhcb")
-life = null
-speed = null
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
